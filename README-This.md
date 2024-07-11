@@ -30,7 +30,7 @@ ______________________________________________________
 - git commit -m "msg"
 ## 8. Create the non existing remote MASTER baranch and push it
 - git branch -M master
-- git remote add origin https://github.com/Pyran-Ranjith/Test-Branch.git
+- git remote add origin https://github.com/Pyran-Ranjith/Flutter-Clean-23-Akshit-Madan-Bloc-Make-AI-Image-Generator-App.git
 - git push -u origin master
 ## 9. Create the non existing remote OTHER baranch and push it
 - git checkout -b ver-1
@@ -54,7 +54,7 @@ ______________________________________________________
 ## Setup the project
 - 1. Create a new repocitary in github
 ### GitHub
-[Flutter-Clean-22-Akshit-Madan-Bloc-Learn-to-make-API-Requests-with-Flutter-BLoC](https://github.com/Pyran-Ranjith/Flutter-Clean-22-Akshit-Madan-Bloc-Learn-to-make-API-Requests-with-Flutter-BLOC.git)
+[Flutter-Clean-23-Akshit-Madan-Bloc-Make-AI-Image-Generator-App](https://github.com/Pyran-Ranjith/Flutter-Clean-23-Akshit-Madan-Bloc-Make-AI-Image-Generator-App.git)
 - 2. decide and open parent folder in vs-code
     - parent folder: Flutter-Clean
 - 3. $ git clone https://youtu.be/Lv9mD0DABsA?list=PL9n0l8rSshSkzasAAyVMozHQu8-LdWxI0&t=144
