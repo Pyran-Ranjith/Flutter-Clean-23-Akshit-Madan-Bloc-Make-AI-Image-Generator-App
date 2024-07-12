@@ -49,7 +49,7 @@ ______________________________________________________
 ## Bookmarks Vedio
 - Date of begin: 11-jul-2024
 - Bookmarks: 
-  -  Sart modify main.dart
+  -  7.43
   
 ## Setup the project
 - 1. Create a new repocitary in github
