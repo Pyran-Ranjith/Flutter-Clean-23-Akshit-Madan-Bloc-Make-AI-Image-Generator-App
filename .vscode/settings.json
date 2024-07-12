@@ -22,5 +22,6 @@
         "titleBar.activeForeground": "#15202b",
         "titleBar.inactiveBackground": "#ffc0cb99",
         "titleBar.inactiveForeground": "#15202b99"
-    }
+    },
+    "cmake.sourceDirectory": "E:/Users/Public/Github_2024/PyranRanjith/GitHub/Flutter-Clean/Flutter-Clean-23-Akshit-Madan-Bloc-Make-AI-Image-Generator-App/midjourney_flutter_app/linux"
 }

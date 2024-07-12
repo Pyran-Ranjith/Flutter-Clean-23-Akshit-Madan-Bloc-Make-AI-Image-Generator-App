@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, avoid_unnecessary_containers, sized_box_for_whitespace
 
+// import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
 
 class CreatePromptScreen extends StatefulWidget {
@@ -10,6 +11,7 @@ class CreatePromptScreen extends StatefulWidget {
 }
 
 class _CreatePromptScreenState extends State<CreatePromptScreen> {
+  TextEditingController controller = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,17 +33,34 @@ class _CreatePromptScreenState extends State<CreatePromptScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text("Enter your prompt"),
+                    Text("Enter your prompt",
+                    style: TextStyle(
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold,
+                    ),),
                     SizedBox(height: 20),
                     TextField(
                       controller: controller,
-                        decoration: InputDecoration(
-                          focusedBorder: Put,
-                          border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(12),
-                          ),
+                      cursorColor: Colors.deepPurple,
+                      decoration: InputDecoration(
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: Colors.deepPurple),
+                          borderRadius: BorderRadius.circular(12),
                         ),
-                    )
+                      ),
+                    ),
+                    SizedBox(height: 20),
+                    SizedBox(
+                      height: 48,
+                      width: double.maxFinite,
+                    ),
+                    ElevatedButton.icon(
+                        style: ButtonStyle(
+                            backgroundColor:
+                                MaterialStateProperty.all(Colors.deepPurple)),
+                        onPressed: () {},
+                        icon: Icon(Icons.generating_tokens),
+                        label: Text("Generate")),
                   ],
                 ),
               ),
