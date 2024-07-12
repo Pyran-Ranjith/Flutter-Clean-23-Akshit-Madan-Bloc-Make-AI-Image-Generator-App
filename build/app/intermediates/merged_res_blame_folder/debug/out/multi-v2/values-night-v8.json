@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ranjith.fc_23_akshit_madan_bloc_make_ai_image_generator_app-mergeDebugResources-9:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "E:\\Users\\Public\\Github_2024\\PyranRanjith\\GitHub\\Flutter-Clean\\Flutter-Clean-23-Akshit-Madan-Bloc-Make-AI-Image-Generator-App\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "175,831",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "482,997"
+                    },
+                    "to": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,236",
+                        "endLines": "5,8",
+                        "endColumns": "12,12",
+                        "endOffsets": "231,400"
+                    }
+                }
+            ]
+        }
+    ]
+}
